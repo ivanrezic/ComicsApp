@@ -14,6 +14,14 @@ Libraries used:
 + RxJava
 + Room
 
+<p align="center">
+  <img src="https://github.com/ivanrezic/ComicsApp/blob/master/App%20Screenshots/1.jpeg" width="350" title="Home Screen">
+  <img src="https://github.com/ivanrezic/ComicsApp/blob/master/App%20Screenshots/2.jpeg" width="350" title="Episode Details">
+  <img src="https://github.com/ivanrezic/ComicsApp/blob/master/App%20Screenshots/3.jpeg" width="350" title="Search results">
+</p>
+
+
+
 ![Home Screen](https://github.com/ivanrezic/ComicsApp/blob/master/App%20Screenshots/1.jpeg)
 ![Episode Details](https://github.com/ivanrezic/ComicsApp/blob/master/App%20Screenshots/2.jpeg)
 ![Search results](https://github.com/ivanrezic/ComicsApp/blob/master/App%20Screenshots/3.jpeg)
