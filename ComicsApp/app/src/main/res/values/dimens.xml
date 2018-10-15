@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="episode_image_width">130dp</dimen>
+    <dimen name="episode_image_height">110dp</dimen>
+    <dimen name="episode_name_text_size">25sp</dimen>
+    <dimen name="episode_series_name_text_size">10sp</dimen>
+    <dimen name="episode_cardview_margin">4dp</dimen>
+    <dimen name="episode_cardview_padding">16dp</dimen>
+    <dimen name="episode_cardview_corner_radius">4dp</dimen>
+    <dimen name="episode_cardview_content_padding">15dp</dimen>
+    <dimen name="episode_details_padding">20dp</dimen>
+    <dimen name="episode_details_image_height">150dp</dimen>
+    <dimen name="episode_details_heading_text_size">20sp</dimen>
+    <dimen name="episode_details_properties_text_size">12sp</dimen>
+    <dimen name="episode_details_favorite_width">20dp</dimen>
+    <dimen name="episode_details_favorite_height">20dp</dimen>
+    <dimen name="episode_name_margin_start">10dp</dimen>
+    <dimen name="episode_image_favorite_width">30dp</dimen>
+    <dimen name="episode_image_favorite_height">30dp</dimen>
+    <dimen name="episode_details_properties_margin_top">5dp</dimen>
+    <dimen name="episode_details_properties_margin_start">5dp</dimen>
+    <dimen name="toolbar_title_padding_start">10dp</dimen>
+    <dimen name="toolbar_title_text_size">22sp</dimen>
+    <dimen name="search_edit_frame_margins">10dp</dimen>
+    <dimen name="search_result_name_text_size">25sp</dimen>
+    <dimen name="search_result_name_margin_start">10dp</dimen>
+    <dimen name="search_result_start_year_text">10sp</dimen>
+    <dimen name="search_result_image_width">130dp</dimen>
+    <dimen name="search_result_image_height">110dp</dimen>
+</resources>

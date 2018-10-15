@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/episode_details_padding">
+
+        <ImageView
+            android:id="@+id/episode_details_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/episode_details_image_height"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/episode_details_episode_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/episode_details_properties_margin_top"
+            android:textSize="@dimen/episode_details_heading_text_size"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/episode_details_image_favorite"
+            app:layout_constraintStart_toStartOf="@id/episode_details_image"
+            app:layout_constraintTop_toBottomOf="@id/episode_details_image"
+            tools:text="Bananaman Meets Doctor Gloom"/>
+
+        <ImageView
+            android:id="@+id/episode_details_image_favorite"
+            android:layout_width="@dimen/episode_details_favorite_width"
+            android:layout_height="@dimen/episode_details_favorite_height"
+            app:layout_constraintBottom_toBottomOf="@+id/episode_details_episode_name"
+            app:layout_constraintEnd_toEndOf="@id/episode_details_image"
+            app:layout_constraintStart_toEndOf="@id/episode_details_episode_name"
+            app:layout_constraintTop_toTopOf="@id/episode_details_episode_name"
+            tools:src="@drawable/ic_favorite_border_24dp"/>
+
+        <TextView
+            android:id="@+id/episode_details_first_field_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/episode_details_properties_margin_top"
+            android:text="@string/episode_details_first_property_text"
+            android:textSize="@dimen/episode_details_properties_text_size"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/episode_details_image"
+            app:layout_constraintTop_toBottomOf="@id/episode_details_episode_name"/>
+
+        <TextView
+            android:id="@+id/episode_details_air_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/episode_details_properties_margin_start"
+            android:textSize="@dimen/episode_details_properties_text_size"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/episode_details_first_field_text"
+            app:layout_constraintTop_toTopOf="@id/episode_details_first_field_text"
+            tools:text="15.8.1996"/>
+
+        <TextView
+            android:id="@+id/episode_details_second_field_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/episode_details_properties_margin_top"
+            android:text="@string/episode_details_second_property_text"
+            android:textSize="@dimen/episode_details_properties_text_size"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/episode_details_image"
+            app:layout_constraintTop_toBottomOf="@+id/episode_details_first_field_text"/>
+
+        <TextView
+            android:id="@+id/episode_details_series_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/episode_details_properties_margin_start"
+            android:textSize="@dimen/episode_details_properties_text_size"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/episode_details_second_field_text"
+            app:layout_constraintTop_toTopOf="@id/episode_details_second_field_text"
+            tools:text="Agents of S.H.I.E.L.D."/>
+
+        <TextView
+            android:id="@+id/episode_details_third_field_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/episode_details_properties_margin_top"
+            android:text="@string/episode_details_third_property_text"
+            android:textSize="@dimen/episode_details_properties_text_size"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/episode_details_image"
+            app:layout_constraintTop_toBottomOf="@id/episode_details_second_field_text"/>
+
+        <TextView
+            android:id="@+id/episode_details_episode_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/episode_details_properties_margin_start"
+            android:textSize="@dimen/episode_details_properties_text_size"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/episode_details_third_field_text"
+            app:layout_constraintTop_toTopOf="@id/episode_details_third_field_text"
+            tools:text="101"/>
+
+        <TextView
+            android:id="@+id/episode_details_fourth_field_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/episode_details_properties_margin_top"
+            android:text="@string/episode_details_fourth_property_text"
+            android:textSize="@dimen/episode_details_properties_text_size"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/episode_details_image"
+            app:layout_constraintTop_toBottomOf="@id/episode_details_third_field_text"/>
+
+        <TextView
+            android:id="@+id/episode_details_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/episode_details_properties_margin_top"
+            android:textSize="@dimen/episode_details_properties_text_size"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/episode_details_image"
+            app:layout_constraintTop_toBottomOf="@id/episode_details_fourth_field_text"
+            tools:text="S.H.I.E.L.D. Agent Phil Coulson assembles a small team of agents to investigate a mysterious group called the Rising Tide. In doing so, they encounter Mike Peterson (J. August Richards), an ordinary man who has acquired superhuman powers."/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

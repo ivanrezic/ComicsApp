@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Comics App</string>
+    <string name="episode_details_fourth_property_text">Description: </string>
+    <string name="episode_details_third_property_text">Episode number: </string>
+    <string name="episode_details_second_property_text">Series: </string>
+    <string name="episode_details_first_property_text">Air date: </string>
+    <string name="app_title">Comics App</string>
+    <string name="search_edit_text_hint">Search episodes..</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/trending_episode"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/episode_cardview_margin"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="@dimen/episode_cardview_padding"
+    app:cardCornerRadius="@dimen/episode_cardview_corner_radius">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/episode_cardview_content_padding">
+
+        <ImageView
+            android:id="@+id/episode_image"
+            android:layout_width="@dimen/episode_image_width"
+            android:layout_height="@dimen/episode_image_height"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/episode_series"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/episode_series_name_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/episode_name"
+            app:layout_constraintStart_toStartOf="@id/episode_name"
+            app:layout_constraintTop_toTopOf="@id/episode_image"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="Batmen se vraca!"/>
+
+        <TextView
+            android:id="@+id/episode_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/episode_name_margin_start"
+            android:textSize="@dimen/episode_name_text_size"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/episode_image"
+            app:layout_constraintEnd_toStartOf="@id/episode_image_favorite"
+            app:layout_constraintStart_toEndOf="@id/episode_image"
+            app:layout_constraintTop_toBottomOf="@+id/episode_series"
+            tools:text="Bananaman"/>
+
+        <ImageView
+            android:id="@+id/episode_image_favorite"
+            android:layout_width="@dimen/episode_image_favorite_width"
+            android:layout_height="@dimen/episode_image_favorite_height"
+            android:src="@drawable/ic_favorite_border_24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
