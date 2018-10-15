@@ -15,7 +15,7 @@ Libraries used:
 + Room
 
 <p align="center">
-  <img src="https://github.com/ivanrezic/ComicsApp/blob/master/App%20Screenshots/1.jpeg" width="500" title="Home Screen">
-  <img src="https://github.com/ivanrezic/ComicsApp/blob/master/App%20Screenshots/2.jpeg" width="500" title="Episode Details">
-  <img src="https://github.com/ivanrezic/ComicsApp/blob/master/App%20Screenshots/3.jpeg" width="500" title="Search results">
+  <img src="https://github.com/ivanrezic/ComicsApp/blob/master/App%20Screenshots/1.jpeg" width="450" border="5" title="Home Screen">
+  <img src="https://github.com/ivanrezic/ComicsApp/blob/master/App%20Screenshots/2.jpeg" width="450" border="5" title="Episode Details">
+  <img src="https://github.com/ivanrezic/ComicsApp/blob/master/App%20Screenshots/3.jpeg" width="450" border="5" title="Search results">
 </p>
